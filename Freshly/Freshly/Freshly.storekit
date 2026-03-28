@@ -1,0 +1,44 @@
+{
+  "identifier" : "FreshlyProducts",
+  "nonRenewableSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "freshly_pro_001",
+      "localizations" : [
+        {
+          "description" : "Unlimited items, custom categories, and waste statistics",
+          "displayName" : "Freshly Pro",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "무제한 항목, 커스텀 카테고리, 폐기 통계",
+          "displayName" : "Freshly Pro",
+          "locale" : "ko"
+        },
+        {
+          "description" : "无限项目、自定义分类和浪费统计",
+          "displayName" : "Freshly Pro",
+          "locale" : "zh-Hans"
+        }
+      ],
+      "productID" : "com.vac2mac.freshly.pro",
+      "referenceName" : "Freshly Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "freshly",
+    "_developerTeamID" : ""
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
