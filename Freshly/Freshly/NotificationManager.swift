@@ -1,7 +1,6 @@
 import UserNotifications
 import SwiftData
 
-// MARK: - Notification Manager
 final class NotificationManager {
     static let shared = NotificationManager()
     private init() {}
