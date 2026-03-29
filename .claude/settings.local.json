@@ -3,7 +3,69 @@
     "allow": [
       "Bash(git init:*)",
       "Bash(git remote:*)",
-      "Bash(git -C /Users/vac2mac/Documents/claude_0328 remote -v)"
+      "Bash(git -C /Users/vac2mac/Documents/claude_0328 remote -v)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(gh auth:*)",
+      "Bash(python3 -c \"from PIL import Image, ImageDraw; print\\(''Pillow OK''\\)\")",
+      "Bash(python3:*)",
+      "Bash(git -C /Users/vac2mac/Documents/claude_0328 add docs/privacy.html WaterMeal/WaterMeal/Assets.xcassets/AppIcon.appiconset/)",
+      "Bash(git -C:*)",
+      "Bash(xcodebuild -scheme WaterMeal -destination \"generic/platform=iOS\" clean build)",
+      "Bash(xcodegen generate:*)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -scheme Freshly -destination 'platform=iOS Simulator,name=iPhone 16' -quiet build)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -scheme Freshly -destination 'platform=iOS Simulator,name=iPhone 17 Pro' -quiet build)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -list)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -target Freshly -destination 'platform=iOS Simulator,name=iPhone 17 Pro' -quiet build)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -target Freshly -destination 'platform=iOS Simulator,name=iPhone 17 Pro' -quiet build CODE_SIGNING_ALLOWED=NO)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -target Freshly -destination 'platform=iOS Simulator,name=iPhone 17 Pro' -quiet -allowProvisioningUpdates build)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -target Freshly -sdk iphonesimulator -quiet build CODE_SIGNING_ALLOWED=NO)",
+      "Bash(open /Users/vac2mac/Documents/claude_0328/Freshly/Freshly.xcodeproj)",
+      "Bash(jq -e '.hooks.PostToolUse[] | select\\(.matcher == \"\"Write|Edit\"\"\\) | .hooks[] | select\\(.type == \"\"command\"\"\\) | .command' /Users/vac2mac/Documents/claude_0328/.claude/settings.local.json)",
+      "Bash(xcrun simctl:*)",
+      "Bash(open -a Simulator)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -scheme Freshly -destination 'id=23FF1475-5AC2-46DD-8445-03BCDE1611BF' -configuration Debug build)",
+      "Bash(defaults write:*)",
+      "Bash(killall Dock)",
+      "Bash(cp ~/Desktop/freshly_paywall.png ~/Desktop/Freshly_Screenshots/en/05_paywall.png)",
+      "Read(//Users/vac2mac/Desktop/**)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -scheme Freshly -configuration Release -destination 'generic/platform=iOS' -archivePath ~/Desktop/Freshly.xcarchive archive)",
+      "Bash(xcodebuild -exportArchive:*)",
+      "Bash(sips -g hasAlpha Freshly/Assets.xcassets/AppIcon.appiconset/AppIcon.png)",
+      "Bash(sips -s format png --setProperty hasAlpha false Freshly/Assets.xcassets/AppIcon.appiconset/AppIcon.png --out Freshly/Assets.xcassets/AppIcon.appiconset/AppIcon.png)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -scheme Freshly -configuration Release -destination 'generic/platform=iOS' -archivePath ~/Desktop/Freshly.xcarchive archive -allowProvisioningUpdates)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -scheme Freshly -configuration Release -destination 'generic/platform=iOS' -archivePath ~/Desktop/Freshly2.xcarchive archive -allowProvisioningUpdates)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -scheme Freshly -configuration Release -destination 'generic/platform=iOS' -archivePath ~/Desktop/Freshly2.xcarchive archive)",
+      "Bash(security find-identity:*)",
+      "Bash(xcodebuild -project /Users/vac2mac/Documents/claude_0328/Freshly/Freshly.xcodeproj -scheme Freshly -configuration Release -destination 'generic/platform=iOS' -archivePath /tmp/test_archive.xcarchive archive -allowProvisioningUpdates)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -scheme Freshly -configuration Release -destination 'generic/platform=iOS' -archivePath /tmp/test_auto.xcarchive archive DEVELOPMENT_TEAM=QDN2PR3V4G CODE_SIGN_STYLE=Automatic -allowProvisioningUpdates)",
+      "Read(//Users/vac2mac/Downloads/**)",
+      "Read(//Users/vac2mac/**)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -scheme Freshly -configuration Release -destination 'generic/platform=iOS' -archivePath /tmp/test_apikey.xcarchive archive -allowProvisioningUpdates -authenticationKeyPath /Users/vac2mac/Downloads/AuthKey_P2JUF5M9GS.p8 -authenticationKeyID P2JUF5M9GS -authenticationKeyIssuerID 92597258-3429-466a-84f1-fdff169ccb3d)",
+      "Bash(security cms:*)",
+      "Bash(plutil -extract Name raw -)",
+      "Bash(xcodebuild -project Freshly.xcodeproj -scheme Freshly -configuration Release -destination 'generic/platform=iOS' -archivePath /tmp/test_manual.xcarchive archive CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM=QDN2PR3V4G CODE_SIGN_IDENTITY=\"Apple Distribution: Lingzhou Li \\(QDN2PR3V4G\\)\" PROVISIONING_PROFILE_SPECIFIER=\"df3c6ba2-7fff-4481-b133-6842da6fe8e6\")",
+      "Bash(xcodebuild -project Freshly.xcodeproj -scheme Freshly -configuration Release -destination 'generic/platform=iOS' -archivePath /tmp/test_stable.xcarchive archive -allowProvisioningUpdates)",
+      "Bash(sips -g pixelWidth -g pixelHeight ~/Desktop/Freshly_Screenshots/ipad/en/01_home.png)",
+      "Bash(ls /Users/vac2mac/.claude/settings.*)",
+      "Bash(ls /Users/vac2mac/.claude/projects/-Users-vac2mac-Documents-claude-0328/settings.*)",
+      "Bash(mkdir -p /Users/vac2mac/.claude/projects/-Users-vac2mac-Documents-claude-0329/memory)",
+      "Bash(cp /Users/vac2mac/.claude/projects/-Users-vac2mac-Documents-claude-0328/memory/*.md /Users/vac2mac/.claude/projects/-Users-vac2mac-Documents-claude-0329/memory/)",
+      "Bash(git reset:*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath // empty' | { read -r f; [ -n \"$f\" ] && cd /Users/vac2mac/Documents/claude_0328 && git add \"$f\" && git commit -m \"auto: update $(basename \"$f\")\" 2>/dev/null; } || true"
+          }
+        ]
+      }
     ]
   }
 }
