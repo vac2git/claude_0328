@@ -1,6 +1,7 @@
 name: Freshly
 options:
   bundleIdPrefix: com.vac2mac
+  uuidSeed: Freshly-stable
   deploymentTarget:
     iOS: "17.0"
   xcodeVersion: "16.0"
